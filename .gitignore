@@ -36,6 +36,11 @@
 *.exe
 *.out
 *.app
+main # Specific executable from your project
 
 # debug information files
 *.dwo
+
+# macOS specific
+.DS_Store
+*.dSYM/
