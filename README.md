@@ -21,7 +21,6 @@ This table provides a clean overview of each project, its purpose, and the key c
 | **`01_Basics`** | Foundational command-line apps for learning C++ syntax.       | `Variables`, `Loops`, `Functions`, `I/O Streams`  |
 | **`02_OOP`** | An application demonstrating Object-Oriented principles.      | `Classes`, `Inheritance`, `Polymorphism`, `Encapsulation` |
 | **`03_DataStructures`**| Custom implementations of common data structures.            | `Linked Lists`, `Stacks`, `Queues`, `Pointers`    |
-| **`[New Project]`** | *...add a new row for each project you complete...* | *...* |
 
 
 ### 🛠️ Tech Stack & Tools
@@ -35,5 +34,4 @@ This table provides a clean overview of each project, its purpose, and the key c
 
 I'm always open to connecting with peers and learning more. Feel free to reach out!
 
-- **LinkedIn:** [linkedin.com/in/your-profile](https://www.linkedin.com/)
-- **Email:** your.email@example.com
+- **Email:** magennadav32@gmail.com
