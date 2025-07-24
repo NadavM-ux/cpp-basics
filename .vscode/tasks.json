@@ -4,7 +4,7 @@
 		{
 			"label": "Build and Run C++ Project",
 			"type": "shell",
-			"command": "g++ -std=c++17 -g ${workspaceFolder}/*.cpp -o ${workspaceFolder}/main && ./main",
+			"command": "g++ -std=c++17 -g ${workspaceFolder}/*.cpp -o ${workspaceFolder}/Ex1 && ./Ex1",
 			"problemMatcher": [
 				"$gcc"
 			],

@@ -44,3 +44,4 @@ main # Specific executable from your project
 # macOS specific
 .DS_Store
 *.dSYM/
+01_Introduction_and_Basics/ex2
