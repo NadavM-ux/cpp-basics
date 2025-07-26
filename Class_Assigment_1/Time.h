@@ -17,13 +17,13 @@ class Time {
         int getSeconds() const;
 
         // Setters
-        void setHours(int&);
-        void setMinutes(int&);
-        void setSeconds(int&);
+        void setHours(int);
+        void setMinutes(int);
+        void setSeconds(int);
 
         int toSecond() const;
         void fromSecond(int seconds);
-        void next(int seconds);
+        void next(int seconds = 1);
 
         void print() const;
         void printAmPm() const;
