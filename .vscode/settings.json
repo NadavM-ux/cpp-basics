@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "*.ejs": "html",
+        "*.h": "cpp",
         "__bit_reference": "cpp",
         "__locale": "cpp",
         "__verbose_abort": "cpp",
@@ -47,6 +48,9 @@
         "unordered_map": "cpp",
         "variant": "cpp",
         "vector": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "iterator": "cpp",
+        "forward_list": "cpp",
+        "charconv": "cpp"
     }
 }
