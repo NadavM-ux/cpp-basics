@@ -26,13 +26,13 @@ public:
     ~List();
 
     // Methods
-    List<T>& clear();
+    List<T>& clear();   
     int count(const T& value) const;
     List<T>& append(const T& value);
     List<T>& extend(const List<T>& other);
     int index(const T& value) const;
     List<T>& remove(const int index);
-    int length() const;
+    int length() const; 
 
     // Operator Overloading
     List<T>& operator=(const List& other);
