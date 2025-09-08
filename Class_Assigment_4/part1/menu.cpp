@@ -11,6 +11,12 @@ bool Menu::addAnimal() {
     std::cout << "3. Sponge" << std::endl;
     std::cout << "4. Cow" << std::endl;
     std::cout << "5. White Shark" << std::endl;
+    std::cout << "6. Wolf" << std::endl;
+    std::cout << "7. Horse" << std::endl;
+    std::cout << "8. Sheep" << std::endl;
+    std::cout << "9. Buffalo" << std::endl;
+    std::cout << "10. Coral" << std::endl;
+
     std::cout << "Enter your choice:";
     std::cin >> choice;
 
@@ -21,6 +27,11 @@ bool Menu::addAnimal() {
         case 3: newAnimal = new Sponge(); break;
         case 4: newAnimal = new Cow(); break;
         case 5: newAnimal = new WhiteShark(); break;
+        case 6: newAnimal = new Wolf(); break;
+        case 7: newAnimal = new Horse(); break;
+        case 8: newAnimal = new Sheep(); break;
+        case 9: newAnimal = new Buffalo(); break;
+        case 10: newAnimal = new Coral(); break;
         default:
             std::cout << "Invalid animal choice." << std::endl;
             return false;
