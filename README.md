@@ -1,37 +1,25 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/Language-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="Language C++">
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License MIT">
-  <img src="https://img.shields.io/badge/Status-In%20Progress-blueviolet?style=for-the-badge" alt="Status In Progress">
-</p>
+# C++ coursework
 
-<h1 align="center">C++ Learning Portfolio 💻</h1>
+My C++ assignments from SCE (2025). Each assignment folder is a self-contained program with its own `driver.cpp` or `main.cpp`.
 
-<p align="center">
-  Welcome! This repository is a structured collection of my university projects and exercises, designed to showcase my journey and skills in C++ programming.
-</p>
+| Folder | What it builds | Concepts |
+| --- | --- | --- |
+| [`01_Introduction_and_Basics`](01_Introduction_and_Basics) | Warm-up exercises on arrays and functions | dynamic arrays, pointers, functions |
+| [`Class_Assigment_1`](Class_Assigment_1) | A `Time` class plus helpers for time differences and sorting | classes, constructors, function overloading |
+| [`Class_Assigment_2`](Class_Assigment_2) | Restaurant ordering system (`Resturant`, `Order`, `Item`) | arrays of pointers, copy constructor, assignment operator, destructor |
+| [`Class_Assigment_3`](Class_Assigment_3) | `Complex` numbers and a `ComplexArray` container | operator overloading, conversion operators |
+| [`Class_Assigment_4/part1`](Class_Assigment_4/part1) | Zoo simulation with a menu, built on an abstract `Animal` hierarchy | inheritance, pure virtual functions, polymorphism |
+| [`Class_Assigment_4/part2`](Class_Assigment_4/part2) | Generic `List<T>` with `Point` and template helpers | class and function templates, exceptions |
 
----
+## Build and run
 
-### 📚 Projects & Coursework
+Each assignment compiles on its own with any C++17 compiler, for example:
 
-This table provides a clean overview of each project, its purpose, and the key concepts demonstrated.
+```bash
+g++ -std=c++17 -Wall Class_Assigment_3/*.cpp -o complex
+./complex
+```
 
-| Project 📂             | Description 📝                                                | Key Concepts 🧠                                   |
-| ---------------------- | ------------------------------------------------------------- | ------------------------------------------------- |
-| **`01_Basics`** | Foundational command-line apps for learning C++ syntax.       | `Variables`, `Loops`, `Functions`, `I/O Streams`  |
-| **`02_OOP`** | An application demonstrating Object-Oriented principles.      | `Classes`, `Inheritance`, `Polymorphism`, `Encapsulation` |
-| **`03_DataStructures`**| Custom implementations of common data structures.            | `Linked Lists`, `Stacks`, `Queues`, `Pointers`    |
+## License
 
-
-### 🛠️ Tech Stack & Tools
-
-- **Language:** C++ (using C++17 standards)
-- **Compiler:** g++
-- **IDE:** Visual Studio Code
-- **Version Control:** Git & GitHub
-
-### 📫 How to Connect
-
-I'm always open to connecting with peers and learning more. Feel free to reach out!
-
-- **Email:** magennadav32@gmail.com
+MIT
